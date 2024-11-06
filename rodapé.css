@@ -1,0 +1,36 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--b2);
+    padding: 1em;
+}
+
+.lista-rodapé {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodapé {
+        display: flexbox;
+    }
+
+    .rodapé__titulo {
+        font-size: 32px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--b2);
+        padding-left: 1em;
+    }
+}

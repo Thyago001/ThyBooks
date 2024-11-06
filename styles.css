@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/tópicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+
+:root {
+    --cor-de-fundo: #000000;
+    --branco: #FFFFFF;
+    --laranja: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #000000 35.49%, #000000 165.37%);
+    --fonte-principal: 'Ubunto-mono', monospace;
+    --azul: #ff0000;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #00cdc6;
+    --cinza-claro: #14aa00;
+    --B1: #ff0000;
+    --b2: #000;
+    --amarelo:#fff200;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
